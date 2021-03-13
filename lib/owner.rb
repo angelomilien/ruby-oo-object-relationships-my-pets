@@ -14,10 +14,7 @@ class Owner
     save
   end
 
-  # attributes/method go here!
 
-
-  # Behaviors/method  go here!
 
   def cats
     Cat.all.select {|cat| cat.owner == self }

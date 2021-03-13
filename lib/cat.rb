@@ -6,18 +6,11 @@ class Cat
   @@all_cats = []
 
   def initialize(name, owner, mood="nervous")
-    # attributes
     @name = name
     @owner = owner
     @mood = mood
-
-    #methods
     save
   end
-
-  # attributes go here!
-
-  # functionalities/behaviors go here!
   
   def save
     @@all_cats << self
